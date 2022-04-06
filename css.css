@@ -23,7 +23,10 @@ article {
     padding: 5px;
 }
 .szamok {
-   
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr ;
+    grid-gap:10px;
+    margin-right: 10px;
 }
 .szamok button {
     
